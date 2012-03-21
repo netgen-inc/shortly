@@ -4,7 +4,7 @@ var shortly = require('./lib/shortly');
 var store = require('./lib/store');
 
 var defaultUrl = 'http://gupiao123.cn/';
-var baseUrl = 'http://l.gupiao123.cn/';
+var baseUrl = 'http://j.gupiao123.cn/';
 
 var app = express.createServer();
 
