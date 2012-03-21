@@ -1,4 +1,5 @@
 var express = require('express');
+var argv = require('optimist').argv;
 var shortly = require('./lib/shortly');
 var store = require('./lib/store');
 
@@ -31,4 +32,4 @@ app.get('/v1/shorten', function(req, res){
   res.send( JSON.stringify( ret, null, '  ' ) );
 });
 
-app.listen(3001);
+app.listen( argv.p || 80 );
