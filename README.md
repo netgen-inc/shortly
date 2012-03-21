@@ -21,13 +21,13 @@ Output
 
 Examples
 
-* curl http://127.0.0.1:3001/v1/shorten?longUrl=http%3A%2F%2Fwww.sina.com.cn
-{
-  "status_code": 200,
-  "data": {
-    "url": "http://127.0.0.1:3001/JvXCrk",
-    "hash": "JvXCrk",
-    "long_url": "http://www.sina.com.cn"
-  },
-  "status_txt": "OK"
+* curl http://127.0.0.1:3001/v1/shorten?longUrl=http%3A%2F%2Fwww.sina.com.cn  
+{  
+  "status_code": 200,  
+  "data": {  
+    "url": "http://127.0.0.1:3001/JvXCrk",  
+    "hash": "JvXCrk",  
+    "long_url": "http://www.sina.com.cn"  
+  },  
+  "status_txt": "OK"  
 }
