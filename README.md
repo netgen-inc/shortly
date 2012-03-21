@@ -19,9 +19,9 @@ Output
 * hash is a identifier for long_url which is unique to the given account.
 * long_url is an echo back of the longUrl request parameter. This may not always be equal to the URL requested. That's because some URL normalization may occur (e.g., due to encoding differences, or case differences in the domain). This long_url will always be functionally identical the the request parameter.
 
-###Examples
+Examples
 
-curl http://127.0.0.1:3001/v1/shorten?longUrl=http%3A%2F%2Fwww.sina.com.cn
+* curl http://127.0.0.1:3001/v1/shorten?longUrl=http%3A%2F%2Fwww.sina.com.cn
 {
   "status_code": 200,
   "data": {
